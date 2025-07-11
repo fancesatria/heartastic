@@ -8,7 +8,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("xgb_heart_model.pkl")
+model = joblib.load("https://github.com/fancesatria/heartastic/blob/main/app/xgb_heart_model.pkl")
 
 # Label Encoder mapping
 gender_map = {'Male': 1, 'Female': 0}
